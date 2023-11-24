@@ -7,7 +7,6 @@ package org.example.HW_1.Task2;
  */
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Book {
@@ -19,7 +18,6 @@ public class Book {
 
     public Book() {
         listBook = new ArrayList<>();
-        // Arrays.sort(new int[]{yearPublication});
     }
 
 
@@ -29,6 +27,7 @@ public class Book {
         newBook.setNameAuthor(nameAuthor);
         newBook.setYearPublication(yearPublication);
         listBook.add(newBook);
+        // System.out.println(listBook.toString());
     }
 
 
@@ -36,26 +35,25 @@ public class Book {
         int thisYear = java.time.Year.now().getValue();
         for (Book book :
                 listBook) {
-            if (thisYear - book.getYearPublication() >= 50) {
-                System.out.println("book information: name - " + book.getNameBook() +
-                        ", author - " + book.getNameAuthor() +
-                        ", publication - " + book.getYearPublication() + ".");
-            }
+            if (thisYear - book.getYearPublication() >= 50)
+                System.out.println(book);
         }
 
     }
 
-    public String getNameBook() {
-        return nameBook;
+    @Override
+    public String toString() {
+        return "book information: name - " + nameBook +
+                ", author - " + nameAuthor +
+                ", publication - " + yearPublication + " year";
     }
+
 
     public void setNameBook(String nameBook) {
         this.nameBook = nameBook;
     }
 
-    public String getNameAuthor() {
-        return nameAuthor;
-    }
+
 
     public void setNameAuthor(String nameAuthor) {
         this.nameAuthor = nameAuthor;
@@ -79,13 +77,6 @@ public class Book {
 
 
 
-
-
-Читатель (Reader)
-Поля: имя, возраст, список взятых книг (массив).
-Методы: взять книгу, вернуть книгу.
-
-
 Библиотекарь (Librarian)
 Поля: имя, стаж работы, список доступных книг (массив).
 Методы: выдать книгу читателю, принять книгу от читателя.
@@ -95,3 +86,18 @@ public class Book {
 Поля: название, адрес, список библиотекарей (массив).
 Методы: добавить библиотекаря, найти библиотекаря по имени.
  */
+
+   /*
+    "book information: name - " + book.getNameBook() +
+                        ", author - " + book.getNameAuthor() +
+                        ", publication - " + book.getYearPublication() + "."
+
+        public String getNameBook() {
+        return nameBook;
+
+        public String getNameAuthor() {
+        return nameAuthor;
+    }
+    }
+
+     */

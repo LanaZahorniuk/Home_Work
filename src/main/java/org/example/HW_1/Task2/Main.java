@@ -1,6 +1,5 @@
 package org.example.HW_1.Task2;
 
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
