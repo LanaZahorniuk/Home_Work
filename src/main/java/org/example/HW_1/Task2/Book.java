@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Book {
-    private String nameBook;
+    public String nameBook;
     private String nameAuthor;
     private int yearPublication;
 
@@ -69,35 +69,3 @@ public class Book {
 
 }
 
-
-
-
-/*
-Управление Библиотекой.
-
-
-
-Библиотекарь (Librarian)
-Поля: имя, стаж работы, список доступных книг (массив).
-Методы: выдать книгу читателю, принять книгу от читателя.
-
-
-Библиотека (Library)
-Поля: название, адрес, список библиотекарей (массив).
-Методы: добавить библиотекаря, найти библиотекаря по имени.
- */
-
-   /*
-    "book information: name - " + book.getNameBook() +
-                        ", author - " + book.getNameAuthor() +
-                        ", publication - " + book.getYearPublication() + "."
-
-        public String getNameBook() {
-        return nameBook;
-
-        public String getNameAuthor() {
-        return nameAuthor;
-    }
-    }
-
-     */

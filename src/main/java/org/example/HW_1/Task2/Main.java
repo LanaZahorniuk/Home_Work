@@ -10,6 +10,15 @@ public class Main {
 
         Book.getBookInfo();
 
+        Reader.addReader("Lana", 100);
+        Reader.addReader("Sara", 10);
+        Reader.addReader("Thom", 1000);
+
+        Reader.getBook("Alphabet","Sara");
+
+        Reader.returnBook("Alphabet", "Sara");
+
+
 
 
     }
