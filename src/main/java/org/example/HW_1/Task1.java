@@ -2,7 +2,7 @@ package org.example.HW_1;
 
 import java.util.Arrays;
 
-public class Task {
+public class Task1 {
 
     public static void main(String[] args) {
         int[] array = {1, 23, -4, 56, 7, 89};
