@@ -20,16 +20,16 @@ public class Reader extends Book {
         bookList = new ArrayList<>();
     }
 
-    public static void addReader(String nameReader, int egeReader){
+    public static void addReader(String nameReader, int egeReader) {
         Reader readerBook = new Reader();
         readerBook.setNameReader(nameReader);
         readerBook.setEgeReader(egeReader);
         readerList.add(readerBook);
-        System.out.println(readerList.toString());
+        System.out.println("читатель(ница) " + nameReader + ", " + egeReader + " лет, теперь в списке читателей! ");
 
     }
 
-    public static void getBook (String nameBook, String nameReader){
+    public static void getBook(String nameBook, String nameReader) {
         Reader readerBook = new Reader();
         readerBook.setNameBook(nameBook);
         readerBook.setNameReader(nameReader);
@@ -38,11 +38,11 @@ public class Reader extends Book {
 
     }
 
-    public static void returnBook(String nameBook, String nameReader){
+    public static void returnBook(String nameBook, String nameReader) {
         Reader readerBook = new Reader();
         readerBook.setNameReader(nameReader);
         bookList.remove(readerBook);
-        System.out.println(nameReader + " - returned the book :) ");
+        System.out.println(nameReader + " - returned the book - " + nameBook);
 
 
     }
