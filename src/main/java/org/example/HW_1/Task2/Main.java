@@ -31,6 +31,7 @@ public class Main {
 
         reader.getBook("Alphabet", "Sara");
         reader.getBook("Harry Potter", "Lana");
+        reader.getBook("ABC", "Lana");
 
         System.out.println("----------------------------------------------------");
 
