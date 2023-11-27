@@ -14,7 +14,7 @@ public class Book {
     private String nameAuthor;
     private int yearPublication;
 
-    public List<Book> listBook;
+    public List<Book> listBook; // // список книг
 
     public Book() {
         listBook = new ArrayList<>();

@@ -13,7 +13,7 @@ public class Reader extends Book {
     private String nameReader;
     int egeReader;
     public List<Reader> readerList;
-    public List<Book> bookList;
+    public List<Book> bookList; // список взятых книг
 
 
     public Reader() {
@@ -50,6 +50,28 @@ public class Reader extends Book {
             System.out.println("'" + nameBook + "'" + " нет в доступе");
         }
     }
+
+    /*public void getBook(String nameBook, String nameReader) {
+        boolean search = false;
+
+        for (Book book :
+                listBook) {
+            if (book.getNameBook().equalsIgnoreCase(nameBook)) {
+                System.out.println("'" + nameBook + "'" + " +");
+                search = true;
+                break;
+            }
+        }
+        if (search) {
+            Book newBook = new Book();
+            newBook.setNameBook(nameBook);
+            newBook.setNameReader(nameReader);
+            bookList.add(newBook);
+            System.out.println(nameReader + " получил(а) книгу - " + nameBook);
+        } else {
+            System.out.println("'" + nameBook + "'" + " нет в доступе");
+        }
+    } */
 
     public void returnBook(String nameBook, String nameReader) {
         Iterator<Book> iterator = bookList.iterator();
