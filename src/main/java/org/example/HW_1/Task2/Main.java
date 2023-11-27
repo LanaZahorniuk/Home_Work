@@ -29,8 +29,8 @@ public class Main {
 
         System.out.println("----------------------------------------------------");
 
-        reader.getBook("Alphabet", "Sara"); // 'Alphabet' not listed & Sara получил(а) книгу - Alphabet
-        reader.getBook("Harry Potter", "Lana"); // not listed НЕ ДОЛЖНЛО ОТОБРАЖАТЬСЯ
+        reader.getBook("Alphabet", "Sara");
+        reader.getBook("Harry Potter", "Lana");
 
         System.out.println("----------------------------------------------------");
 
@@ -48,8 +48,6 @@ public class Main {
         }
         System.out.println("----------------------------------------------------");
 
-        //Reader.getBook("Alphabet", "Sara");
-        // Reader.returnBook("Alphabet", "Sara");
 //
 //        Librarian librarian1 = new Librarian("Artur", 54);
 //        Librarian librarian2 = new Librarian("Giselle", 23);

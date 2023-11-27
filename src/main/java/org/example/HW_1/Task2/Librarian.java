@@ -8,7 +8,7 @@ import java.util.List;
 Поля: имя, стаж работы, список доступных книг (массив).
 Методы: выдать книгу читателю, принять книгу от читателя.
  */
-public class Librarian extends Book {
+public class Librarian extends Reader {
     private String nameLibrarian;
     private int experience;
 

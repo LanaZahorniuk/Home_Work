@@ -39,8 +39,7 @@ public class Reader extends Book {
                 break;
             }
         }
-        if (bookExists = true) { // 'Alphabet' not listed & Sara получил(а) книгу - Alphabet
-            getBookInfo(nameBook);
+        if (bookExists = true) {
             Book newBook = new Book();
             newBook.setNameBook(nameBook);
             newBook.setNameReader(nameReader);
