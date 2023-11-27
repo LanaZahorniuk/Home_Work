@@ -1,6 +1,7 @@
 package org.example.HW_1.Task2;
 
 
+import javax.management.ObjectName;
 import java.util.List;
 
 public class Main {
@@ -21,16 +22,34 @@ public class Main {
 
         System.out.println("----------------------------------------------------");
 
+        Reader reader = new Reader();
+        reader.addReader("Lana", 100);
+        reader.addReader("Sara", 10);
+        reader.addReader("Thom", 1000);
 
+        System.out.println("----------------------------------------------------");
 
+        reader.getBook("Alphabet", "Sara"); // 'Alphabet' not listed & Sara получил(а) книгу - Alphabet
+        reader.getBook("Harry Potter", "Lana"); // not listed НЕ ДОЛЖНЛО ОТОБРАЖАТЬСЯ
 
+        System.out.println("----------------------------------------------------");
 
-//        Reader.addReader("Lana", 100);
-//        Reader.addReader("Sara", 10);
-//        Reader.addReader("Thom", 1000);
-//
-//        Reader.getBook("Alphabet", "Sara");
-//        Reader.returnBook("Alphabet", "Sara");
+        System.out.println("Содержимое bookList:");
+        for (Book bookBook : reader.bookList) {
+            System.out.println("name reader: " + bookBook.getNameReader() + ", book: " + bookBook.getNameBook());
+        }
+        System.out.println("----------------------------------------------------");
+
+        reader.returnBook("Alphabet", "Sara");
+
+        System.out.println("Содержимое bookList:");
+        for (Book bookBook : reader.bookList) {
+            System.out.println("name reader: " + bookBook.getNameReader() + ", book: " + bookBook.getNameBook());
+        }
+        System.out.println("----------------------------------------------------");
+
+        //Reader.getBook("Alphabet", "Sara");
+        // Reader.returnBook("Alphabet", "Sara");
 //
 //        Librarian librarian1 = new Librarian("Artur", 54);
 //        Librarian librarian2 = new Librarian("Giselle", 23);
@@ -47,12 +66,27 @@ public class Main {
 }
 
 
-
-  /*  List<Book> allBooks = book.getListBook();
+/*
+System.out.println("Содержимое listBook:");
+        List<Book> allBooks = book.getListBook();
         for (Book books :
                 allBooks) {
             System.out.println("book information: name - " + books.getNameBook()
                     + ", author - " + books.getNameAuthor()
                     + ", publication - " + books.getYearPublication()
                     + " year");
-        } */
+        }
+
+System.out.println("----------------------------------------------------");
+
+
+  List<Reader> allReaders = reader.getReaderList();
+        for (Reader readers :
+                allReaders) {
+            System.out.println(readers.getNameReader()
+                    + " - " + readers.getEgeReader() + " year ");
+        }
+
+ */
+
+

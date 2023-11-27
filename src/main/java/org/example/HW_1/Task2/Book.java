@@ -20,6 +20,8 @@ public class Book {
         listBook = new ArrayList<>();
     }
 
+    private String nameReader;
+
 
     public void addBook(String nameBook, String nameAuthor, int yearPublication) {
         Book newBook = new Book();
@@ -90,5 +92,24 @@ public class Book {
         return nameBook;
     }
 
+    public String getNameAuthor() {
+        return nameAuthor;
+    }
+
+    public List<Book> getListBook() {
+        return listBook;
+    }
+
+    public void setListBook(List<Book> listBook) {
+        this.listBook = listBook;
+    }
+
+    public String getNameReader() {
+        return nameReader;
+    }
+
+    public void setNameReader(String nameReader) {
+        this.nameReader = nameReader;
+    }
 }
 
