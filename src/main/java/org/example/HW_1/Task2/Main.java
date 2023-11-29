@@ -1,9 +1,6 @@
 package org.example.HW_1.Task2;
 
 
-import javax.management.ObjectName;
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         Book book = new Book();
@@ -31,7 +28,7 @@ public class Main {
 
         reader.getBook("Alphabet", "Sara");
         reader.getBook("Harry Potter", "Lana");
-        reader.getBook("ABC", "Lana");
+        // reader.getBook("ABC", "Lana");
 
         System.out.println("----------------------------------------------------");
 
@@ -49,43 +46,36 @@ public class Main {
         }
         System.out.println("----------------------------------------------------");
 
-//
-//        Librarian librarian1 = new Librarian("Artur", 54);
-//        Librarian librarian2 = new Librarian("Giselle", 23);
-//        System.out.println(librarian1);
-//        System.out.println(librarian2);
-//
-//        Librarian.giveBookFromReader("Alphabet", librarian1, "Thom");
-//        Librarian.giveBookFromReader("Harry Potter", librarian2, "Lana");
-//
-//        Librarian.takeBookFromReader("Alphabet", librarian1, "Thom");
-//        Librarian.takeBookFromReader("Harry Potter", librarian2, "Lana");
+        Librarian librarian1 = new Librarian("Artur", 54);
+        Librarian librarian2 = new Librarian("Giselle", 23);
+        System.out.println(librarian1);
+        System.out.println(librarian2);
+
+        System.out.println("----------------------------------------------------");
+
+        Librarian.giveBook("Alphabet", librarian1, "Thom");
+        Librarian.giveBook("Harry Potter", librarian2, "Lana");
+        Librarian.showAvailableBooks();
+
+        Librarian.takeBookFromReader("Alphabet", librarian1, "Thom");
+        Librarian.takeBookFromReader("Harry Potter", librarian2, "Lana");
+        Librarian.showAvailableBooks();
+        System.out.println("----------------------------------------------------");
+
+        Library library = new Library();
+
+        library.addLibrary("Big American Library", "USA", "Artur");
+        library.addLibrary("Big American Library", "USA", "Sara");
+        library.addLibrary("Big American Library", "USA", "Leonardo");
+        library.addLibrary("Big American Library", "USA", "Rosa");
+        System.out.println(library.librarianList.toString());
+
+        System.out.println("----------------------------------------------------");
+
+        library.searchLibrarian("Artur");
+        library.searchLibrarian("Lana");
 
     }
 }
-
-
-/*
-System.out.println("Содержимое listBook:");
-        List<Book> allBooks = book.getListBook();
-        for (Book books :
-                allBooks) {
-            System.out.println("book information: name - " + books.getNameBook()
-                    + ", author - " + books.getNameAuthor()
-                    + ", publication - " + books.getYearPublication()
-                    + " year");
-        }
-
-System.out.println("----------------------------------------------------");
-
-
-  List<Reader> allReaders = reader.getReaderList();
-        for (Reader readers :
-                allReaders) {
-            System.out.println(readers.getNameReader()
-                    + " - " + readers.getEgeReader() + " year ");
-        }
-
- */
 
 

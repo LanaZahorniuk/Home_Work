@@ -14,7 +14,7 @@ public class Book {
     private String nameAuthor;
     private int yearPublication;
 
-    public List<Book> listBook; // // список книг
+    public List<Book> listBook; // список книг
 
     public Book() {
         listBook = new ArrayList<>();
@@ -33,7 +33,7 @@ public class Book {
     }
 
 
-    public void getBookInfo(String nameBook) {
+    public boolean getBookInfo(String nameBook) {
         boolean search = false;
         for (Book book :
                 listBook) {
@@ -46,6 +46,7 @@ public class Book {
         if (!search) {
             System.out.println("'" + nameBook + "'" + " not listed");
         }
+        return true;
     }
 
     public void getOldBook(String nameBook) {
@@ -90,18 +91,6 @@ public class Book {
 
     public String getNameBook() {
         return nameBook;
-    }
-
-    public String getNameAuthor() {
-        return nameAuthor;
-    }
-
-    public List<Book> getListBook() {
-        return listBook;
-    }
-
-    public void setListBook(List<Book> listBook) {
-        this.listBook = listBook;
     }
 
     public String getNameReader() {

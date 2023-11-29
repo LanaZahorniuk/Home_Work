@@ -79,23 +79,4 @@ public class Reader extends Book {
         return nameReader;
     }
 
-    public int getEgeReader() {
-        return egeReader;
-    }
-
-    public List<Reader> getReaderList() {
-        return readerList;
-    }
-
-    public void setReaderList(List<Reader> readerList) {
-        this.readerList = readerList;
-    }
-
-    public List<Book> getBookList() {
-        return bookList;
-    }
-
-    public void setBookList(List<Book> bookList) {
-        this.bookList = bookList;
-    }
 }
