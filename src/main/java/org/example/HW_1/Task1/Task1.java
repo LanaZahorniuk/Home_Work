@@ -1,4 +1,4 @@
-package org.example.HW_1;
+package org.example.HW_1.Task1;
 
 import java.util.Arrays;
 
