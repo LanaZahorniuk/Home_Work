@@ -16,5 +16,16 @@ public class Main {
         product.changeQuantity("smartphone", 200);
         product.changeQuantity("laptop", 2);
         System.out.println(product.productList.toString());
+
+        System.out.println("----------------------------------------------------");
+
+        Order order = new Order();
+        order.addProductInOrderList("TV", 1, 1500);
+        order.addProductInOrderList("radio", 2, 70);
+
+        System.out.println(order.orderList.toString());
+
+        order.calculationOrderSum();
+
     }
 }
