@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e35d71-d47d-4250-8258-e578ab99740a" name="Changes" comment="HW">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="80e35d71-d47d-4250-8258-e578ab99740a" name="Changes" comment="HW_1 +">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/OrderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701471458487</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="HW_1 +">
+      <created>1701815177883</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701815177883</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +248,7 @@
     <MESSAGE value="folders" />
     <MESSAGE value="class Product ready" />
     <MESSAGE value="HW" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW" />
+    <MESSAGE value="HW_1 +" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_1 +" />
   </component>
 </project>

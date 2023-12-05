@@ -26,7 +26,7 @@ public class Customer {
     }
 
     public void cancelOrder(String nameProduct, String nameCustomer) {
-        boolean found = false;
+        boolean found;
 
         found = customerList.removeIf(customer ->
                 customer.getNameProduct().equalsIgnoreCase(nameProduct)
@@ -47,11 +47,6 @@ public class Customer {
 
     private String nameProduct;
 
-    public Customer(String nameCustomer, String email, String nameProduct) {
-        this.nameCustomer = nameCustomer;
-        this.email = email;
-        this.nameProduct = nameProduct;
-    }
 
     public String getNameCustomer() {
         return nameCustomer;
@@ -61,20 +56,8 @@ public class Customer {
         this.nameCustomer = nameCustomer;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public List<Customer> getCustomerList() {
         return customerList;
-    }
-
-    public void setCustomerList(List<Customer> customerList) {
-        this.customerList = customerList;
     }
 
     public String getNameProduct() {

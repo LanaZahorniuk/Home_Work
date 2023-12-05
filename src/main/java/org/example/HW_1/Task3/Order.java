@@ -38,22 +38,6 @@ public class Order {
         System.out.println("all: " + sum);
     }
 
-    public List<Order> getOrderList() {
-        return orderList;
-    }
-
-    public void setOrderList(List<Order> orderList) {
-        this.orderList = orderList;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
     public int getSum() {
         return sum;
     }
@@ -62,17 +46,10 @@ public class Order {
         this.sum = sum;
     }
 
-    public String getNameProduct() {
-        return nameProduct;
-    }
-
     public void setNameProduct(String nameProduct) {
         this.nameProduct = nameProduct;
     }
 
-    public int getQuantity() {
-        return quantity;
-    }
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;

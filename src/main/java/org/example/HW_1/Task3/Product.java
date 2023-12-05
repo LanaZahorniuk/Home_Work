@@ -86,14 +86,6 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public List<Product> getProductList() {
-        return productList;
-    }
-
-    public void setProductList(List<Product> productList) {
-        this.productList = productList;
-    }
-
     @Override
     public String toString() {
         return "Product{" +
