@@ -1,5 +1,7 @@
 package org.example.HW_1.Task3;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         Product product = new Product();
@@ -25,7 +27,33 @@ public class Main {
 
         System.out.println(order.orderList.toString());
 
-        order.calculationOrderSum(); // sdfgh
+        order.calculationOrderSum();
+
+        System.out.println("----------------------------------------------------");
+
+        Customer customer = new Customer();
+
+        customer.makeOrder("TV, radio, laptop","Elon Musk");
+        customer.makeOrder("TV, radio", "Edgar Allan Poe");
+        customer.makeOrder("radio","Ernest Hemingway");
+
+        customer.checkList();
+
+        customer.cancelOrder("radio","Ernest Hemingway");
+        System.out.println("----------------------------------------------------");
+        customer.checkList();
+
+        System.out.println("----------------------------------------------------");
+
+        OrderManager orderManager = new OrderManager();
+
+        orderManager.processingNewOrder();
+        orderManager.updateOrderStatus();
+
+
+
+
+
 
     }
 }

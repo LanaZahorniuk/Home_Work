@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e35d71-d47d-4250-8258-e578ab99740a" name="Changes" comment="class Product ready" />
+    <list default="true" id="80e35d71-d47d-4250-8258-e578ab99740a" name="Changes" comment="HW">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_1/Task3/OrderManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,16 +40,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/09052023/Java/Lessons",
+    "last_opened_file_path": "D:/09052023/Java Pro/Home_Work",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Task">
+  <component name="RunManager" selected="Application.org.example.HW_1.Task3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.HW_1.Task2.Main" />
       <module name="Home_Work" />
@@ -97,8 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task" />
         <item itemvalue="Application.org.example.HW_1.Task3.Main" />
+        <item itemvalue="Application.Task" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task1" />
       </list>
@@ -211,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701470615910</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="HW">
+      <created>1701471458487</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701471458487</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,6 +242,7 @@
     <MESSAGE value="class Reader метод getBook() работает плохо" />
     <MESSAGE value="folders" />
     <MESSAGE value="class Product ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="class Product ready" />
+    <MESSAGE value="HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW" />
   </component>
 </project>
