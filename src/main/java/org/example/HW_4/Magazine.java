@@ -30,4 +30,28 @@ public class Magazine extends LibraryItem{
                 ", author: " + author+
                 ", genre: " + genre;
     }
+
+    public int getIssueNumber() {
+        return issueNumber;
+    }
+
+    public void setIssueNumber(int issueNumber) {
+        this.issueNumber = issueNumber;
+    }
+
+    public LocalDate getReleaseDate() {
+        return releaseDate;
+    }
+
+    public void setReleaseDate(LocalDate releaseDate) {
+        this.releaseDate = releaseDate;
+    }
+
+    public boolean isMonthly() {
+        return isMonthly;
+    }
+
+    public void setMonthly(boolean monthly) {
+        isMonthly = monthly;
+    }
 }

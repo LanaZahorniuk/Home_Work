@@ -62,4 +62,28 @@ public class Book extends LibraryItem implements Borrowable, Maintainable {
                 ", author: " + author +
                 ", genre: " + genre;
     }
+
+    public BookStatus getStatus() {
+        return status;
+    }
+
+    public LocalDate getPublishDate() {
+        return publishDate;
+    }
+
+    public void setPublishDate(LocalDate publishDate) {
+        this.publishDate = publishDate;
+    }
+
+    public int getPageCount() {
+        return pageCount;
+    }
+
+    public void setPageCount(int pageCount) {
+        this.pageCount = pageCount;
+    }
+
+    public void setStatus(BookStatus status) {
+        this.status = status;
+    }
 }

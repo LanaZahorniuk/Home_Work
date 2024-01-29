@@ -4,83 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e35d71-d47d-4250-8258-e578ab99740a" name="Changes" comment="HW_1 +">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10/Game/Adult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10/Game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10/Game/GenerateTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10/Game/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10/Game/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10/NEW_YEAR.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_10/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task1/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task1/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task1/DepartmentOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task1/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task1/EmployeeActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task1/HRManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task1/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task2/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task2/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task2/Maintenance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task2/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task2/Tram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task2/TransportControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task2/TransportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_2/Task2/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/Task9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_3/taski1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/BookStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Borrowable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/CollectionProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/ItemCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Librarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/LibraryCatalogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/LibraryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Maintainable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Searchable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/taski.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_5/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_5/taski.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_6/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_6/taski.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_7/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_7/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_7/taski.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_8/Queue2023.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_8/Stack2023.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_8/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_8/taski.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_9/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_9/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_9/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_9/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_9/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_9/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_9/taski.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="80e35d71-d47d-4250-8258-e578ab99740a" name="Changes" comment="HW_2 +&#10;HW_3 +">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_12/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_12/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_4/CollectionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/CollectionProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/09052023/Java Pro/Home_Work/src/main/java/org/example/HW_10/Game",
+    "last_opened_file_path": "D:/09052023/Java Pro/Home_Work/src/main/java/org/example/HW_12",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -130,11 +61,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_12" />
       <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_10\Game" />
       <recent name="D:\09052023\Java Pro\Home_Work\target" />
       <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_10" />
       <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_9" />
-      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_2\Task4" />
@@ -144,13 +75,13 @@
       <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_2\Tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task13">
-    <configuration name="Task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_3.Task10" />
+  <component name="RunManager" selected="Application.Task">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_4.Main" />
       <module name="Home_Work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_3.*" />
+          <option name="PATTERN" value="org.example.HW_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_3.Task11" />
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_12.Task" />
       <module name="Home_Work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_3.*" />
+          <option name="PATTERN" value="org.example.HW_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task13" />
         <item itemvalue="Application.Task12" />
         <item itemvalue="Application.Task6" />
-        <item itemvalue="Application.Task11" />
-        <item itemvalue="Application.Task10" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701815558191</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="HW_2 +&#10;HW_3 +">
+      <created>1703165800304</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1703165800304</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -366,6 +304,7 @@
     <MESSAGE value="class Product ready" />
     <MESSAGE value="HW" />
     <MESSAGE value="HW_1 +" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_1 +" />
+    <MESSAGE value="HW_2 +&#10;HW_3 +" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_2 +&#10;HW_3 +" />
   </component>
 </project>
