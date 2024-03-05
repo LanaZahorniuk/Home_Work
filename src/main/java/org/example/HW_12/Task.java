@@ -85,8 +85,7 @@ public class Task {
 
         )
         .collect(Collectors.summingInt(p -> p.getAge()));
-
-
+return null;
     }
 
 

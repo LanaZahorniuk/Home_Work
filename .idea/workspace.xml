@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e35d71-d47d-4250-8258-e578ab99740a" name="Changes" comment="HW_2 +&#10;HW_3 +">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_12/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_12/Task.java" afterDir="false" />
+    <list default="true" id="80e35d71-d47d-4250-8258-e578ab99740a" name="Changes" comment="HW_16 +">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_11/TaskStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_11/Taski.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_11/helper/ex1/StreamEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_11/helper/ex2/StreamApiExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_18/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_18/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_19/Luna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_19/уч.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_22/ThreadExAtomicInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_22/ThreadExSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_04_03_2024/_2024_03_04/Five.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_04_03_2024/_2024_03_04/Four.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_04_03_2024/_2024_03_04/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_04_03_2024/_2024_03_04/Three.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_04_03_2024/_2024_03_04/WN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_4/CollectionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/CollectionProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Magazine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW_12/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW_12/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +64,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/09052023/Java Pro/Home_Work/src/main/java/org/example/HW_12",
-    "project.structure.last.edited": "Global Libraries",
+    "last_opened_file_path": "D:/09052023/Java Pro/Home_Work/src/main/java/org/example/_04_03_2024",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_12" />
-      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_10\Game" />
-      <recent name="D:\09052023\Java Pro\Home_Work\target" />
-      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_10" />
-      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_9" />
+      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\_04_03_2024" />
+      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_22" />
+      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_17" />
+      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_11" />
+      <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_2\Task4" />
@@ -74,14 +85,17 @@
       <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_2\Task1" />
       <recent name="D:\09052023\Java Pro\Home_Work\src\main\java\org\example\HW_2\Tasks" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.HW_19" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Task">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_4.Main" />
+  <component name="RunManager" selected="Application.ThreadExSynchronized">
+    <configuration name="уч" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_19.уч" />
       <module name="Home_Work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_4.*" />
+          <option name="PATTERN" value="org.example.HW_19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_12.Task" />
+    <configuration name="Luna" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_19.Luna" />
       <module name="Home_Work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_12.*" />
+          <option name="PATTERN" value="org.example.HW_19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_3.Task12" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_18.Main2" />
       <module name="Home_Work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_3.*" />
+          <option name="PATTERN" value="org.example.HW_18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_3.Task13" />
+    <configuration name="ThreadExAtomicInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_22.ThreadExAtomicInt" />
       <module name="Home_Work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_3.*" />
+          <option name="PATTERN" value="org.example.HW_22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HW_3.Task6" />
+    <configuration name="ThreadExSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HW_22.ThreadExSynchronized" />
       <module name="Home_Work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HW_3.*" />
+          <option name="PATTERN" value="org.example.HW_22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Task13" />
-        <item itemvalue="Application.Task12" />
-        <item itemvalue="Application.Task6" />
+        <item itemvalue="Application.ThreadExSynchronized" />
+        <item itemvalue="Application.ThreadExAtomicInt" />
+        <item itemvalue="Application.Luna" />
+        <item itemvalue="Application.уч" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703165800304</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="HW_16 +">
+      <created>1706530606908</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706530606908</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -305,6 +326,7 @@
     <MESSAGE value="HW" />
     <MESSAGE value="HW_1 +" />
     <MESSAGE value="HW_2 +&#10;HW_3 +" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_2 +&#10;HW_3 +" />
+    <MESSAGE value="HW_16 +" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_16 +" />
   </component>
 </project>
